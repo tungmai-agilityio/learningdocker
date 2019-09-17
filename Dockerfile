@@ -10,4 +10,4 @@ MAINTAINER Dr. Peter <peterindia@gmail.com>
 RUN mkdir mynewdir
 RUN touch /mynewdir/mynewfile
 # Write the message in file
-  RUN echo 'this is my new container to make image and then push to hub' > /mynewdir/mynewfile
+  RUN echo 'this is my updated container to make image and then push to hub' > /mynewdir/mynewfile
